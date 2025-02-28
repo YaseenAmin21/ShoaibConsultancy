@@ -37,15 +37,15 @@ body {
   /* height: 7.5rem; */
   width: 100%;
   background-color: var(--color-primary-light-3);
-  border-bottom: 3px solid var(--color-primary-light);
-  padding: 1rem 3.5rem;
+  /* border-bottom: 3px solid var(--color-primary-light);s */
+  padding: 1rem 5.5rem;
 
   display: flex;
   align-items: center;
   justify-content: space-between;
 
-  /* box-shadow: 0 2px 4px rgba(6, 17, 118, 0.08), */
-  /* 0 4px 12px rgba(6, 17, 118, 0.08); */
+  box-shadow: 0 2px 4px rgba(6, 17, 118, 0.05),
+    0 4px 12px rgba(6, 17, 118, 0.05);
 }
 
 .logo-box {
@@ -54,7 +54,7 @@ body {
   display: flex;
 }
 .logo {
-  height: 4.5rem;
+  height: 6.5rem;
   align-items: center;
   justify-self: center;
 }
