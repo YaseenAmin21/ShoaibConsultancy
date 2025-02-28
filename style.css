@@ -29,6 +29,11 @@ body {
   background-color: var(--color-primary-light-3);
 }
 
+::selection {
+  color: var(--color-white);
+  background-color: var(--color-primary-light);
+}
+
 /* ======================================= */
 /*              Nav-Bar */
 /* ======================================= */
