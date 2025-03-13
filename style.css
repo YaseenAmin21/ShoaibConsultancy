@@ -265,7 +265,8 @@ body {
 }
 .link-ca:hover,
 .link-ca:active {
-  background-color: var(--color-secondary-light);
+  /* background-color: var(--color-secondary-light); */
+  background-color: #dd671f;
 }
 .link-ca:hover {
   transform: translateY(-3px);
