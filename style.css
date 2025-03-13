@@ -277,6 +277,8 @@ body {
 .dark {
   color: #fff;
   background-color: var(--color-primary-light);
+  /* background-color: var(--color-primary-light); */
+  /* background-color: var(--color-primary-light); */
 }
 
 .light {
