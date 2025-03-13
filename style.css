@@ -425,3 +425,80 @@ body {
   font-weight: 700;
   opacity: 0.8;
 }
+
+/* ======================================= */
+/*          Testimonials Section           */
+/* ======================================= */
+
+.section-testimonials {
+  padding: 9.6rem 0;
+}
+
+.testimonials-card {
+  background-color: var(--color-primary-light);
+
+  padding: 2rem 3rem;
+  font-size: 1.8rem;
+  border-radius: 5px;
+}
+
+.testimonials-card:nth-child(1) {
+  grid-column: span 2;
+  color: #fff;
+  background-color: var(--color-primary-light);
+  background-image: url("./img/quote-svgrepo-com.svg");
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  overflow: hidden;
+}
+.testimonials-card:nth-child(2) {
+  color: var(--color-secondary-dark);
+  background-color: #fef1e9;
+}
+.testimonials-card:nth-child(3) {
+  grid-row: span 2;
+  background-color: var(--color-primary-light-2);
+  color: #fff;
+}
+.testimonials-card:nth-child(4) {
+  color: #fff;
+  background-color: var(--color-primary-light-2);
+}
+.testimonials-card:nth-child(5) {
+  grid-column: span 2;
+
+  background-color: var(--color-secondary-light);
+  color: #fff;
+}
+.testimonials-card:nth-child(6) {
+  grid-column: span 2;
+  background-color: var(--color-primary-light-3);
+}
+.testimonials-card:nth-child(7) {
+  color: #fff;
+  grid-column: span 2;
+  background-color: var(--color-primary-light);
+  background-image: url("./img/quote-svgrepo-com.svg");
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  overflow: hidden;
+}
+
+.details-box {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+.customer-photo {
+  width: 5.5rem;
+  border-radius: 50%;
+}
+.details {
+}
+.name {
+}
+.store-name {
+}
